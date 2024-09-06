@@ -24,4 +24,27 @@
 Обзорный материал по машинному обучению: Introduction to Statistical Learning https://www.statlearning.com/
 Глубокий материал по машинному обучению: Elements of Statistical Learning https://web.stanford.edu/~hastie/ElemStatLearn/  
 Отличный обзор машинного обучения с точки зрения статистики Probabilistic Machine Learning: https://probml.github.io/pml-book/book1.html
- 
+
+## Как запустить код
+
+Для запуска кода необходимо установить Python версии 3.12.5 и выше. 
+
+Для установки зависимостей выполните команду:
+```bash
+python3 -m venv lect_env
+source lect_env/bin/activate
+pip install -r requirements.txt
+python -m ipykernel install --user --name=lectures
+```
+
+Запуск ноутбуков выполните командой:
+```bash
+jupyter notebook
+``````
+
+В ноутбуке выберите ядро `lectures`.
+
+## Лицензия
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+

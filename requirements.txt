@@ -1,0 +1,8 @@
+jupyter
+ipykernel
+scipy
+matplotlib
+matplotlib_venn
+pymc
+zfit
+scikit-learn
